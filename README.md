@@ -2,7 +2,7 @@
 
 Go here on your phone: **[tinyurl.com/mfnw2014](http://matthewmcvickar.github.io/musicfestnw-mobile-schedule/)**
 
-MusicFestNW's site is not responsive, so reading the schedule while you're at the festival is difficult.
+MusicFestNW's site is not responsive and the native app isn't simple, so reading the schedule while you're at the festival is difficult.
 
 This is a fits-on-one-screen schedule that you can bookmark or make into your lock screen background.
 
