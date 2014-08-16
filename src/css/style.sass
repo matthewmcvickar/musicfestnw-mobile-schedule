@@ -1,0 +1,172 @@
+@import "normalize"
+
+*
+  position: relative
+  box-sizing: border-box
+
+html,
+body
+  width: 100%
+  height: 100%
+
+body
+  margin: 0
+  padding: 0
+
+  font-family: "Avenir Next Condensed"
+  font-size: 11px
+
+  background-color: black
+
+  color: white
+
+.container
+  padding:
+    left: 20px
+    right: 20px
+
+    top: 20px
+
+a
+  color: white
+
+p
+  font-size: 14px
+  margin: 20px 0 10px
+
+nav
+  ul,
+  li
+    list-style: none
+    margin: 0
+    padding: 0
+
+  li
+    display: inline-block
+    margin-right: 0.75em
+    text-align: center
+
+  a
+    font-size: 17px
+    font-weight: 700
+
+h1
+  margin: 0 0 -10px 0
+  padding-top: 0
+
+h2
+  display: inline-block
+
+  transform: rotate(-90deg)
+  transform-origin: right bottom
+
+  margin: 0 0 0 -87px
+  padding-right: 2px
+  width: 100px
+
+  text-align: right
+  text-transform: uppercase
+
+table
+  border-collapse: collapsetable
+  margin-left: 20px
+  width: 92%
+
+th,
+td
+  line-height: 1
+  padding: 3px 4px 2px
+  width: 50%
+
+tr
+  background: #222
+
+tr:nth-child(even)
+  background: #333
+
+th
+  background: #444
+
+  font-weight: 700
+
+  text-align: left
+  text-transform: uppercase
+
+td
+  font-weight: 300
+
+  strong
+    font-weight: 400
+    margin-right: 1em
+
+p.instructions
+  font-size: 16px
+
+.wallpapers
+  display: flex
+  margin-bottom: 30px
+
+.wallpaper
+  padding-right: 5px
+
+  &:last-child
+    padding-right: 0
+
+  h3
+    font-size: 16px
+    margin-bottom: 5px
+    text-align: center
+
+  img
+    border: 1px solid
+    max-width: 100%
+
+.wallpapers + .about
+  display: none
+
+
+// Wallpaper guide
+
+body
+  // background-image: url(../img/test-iphone-background.png)
+  background-position: left top
+  background-repeat: no-repeat
+  background-size: cover
+
+
+// Wallpaper: both days
+
+// .container
+//   padding-top: 150px
+
+// h1
+//   display: none
+
+// table
+//   margin-left: 20px
+//   width: 92%
+
+// // Don't show location headers on second table.
+// table + h2 + table
+//   th
+//     display: none
+
+
+// Wallpaper: one day
+
+// body
+//   font-size: 12px
+
+// .container
+//   padding-top: 200px
+
+// h1
+//   display: block
+
+// table
+//   margin-left: 0
+//   width: 100%
+
+// th,
+// td
+//   padding: 5px 6px 4px
